@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    ["transform-object-rest-spread", { useBuiltIns: true }], // Object.assign is supported by Espruino.
+    "check-es2015-constants",
+    "transform-es2015-block-scoped-functions",
+    ["transform-es2015-block-scoping", {throwIfClosureRequired: true}],
+    "transform-es2015-spread",
+    ["transform-es2015-destructuring", {loose: true}], // Loose assumes we're always destructuring Arrays. Using this to avoid a dependency on Symbol.
+    "transform-es2015-parameters",
+    "transform-es2015-shorthand-properties",
+    ["fast-async", {
+      spec: true // This transpilation approach relies on promise-fix.js
+    }]
+  ]
+}
