@@ -25,7 +25,7 @@ e.g. Using the command line. (Note: Your port and baud rate may vary).
     espruino -b 115200 -p /dev/cu.SLAB_USBtoUART dist/entry.bundle.js
 
 ### Disclaimer
-I have not do in-depth or comprehensive testing that ensures that all code is compiled or executes as expected.
+I have not done comprehensive testing that ensures that all code is compiled or executes as expected.
 
 If you run into any issues, please consider raising an issue here or in the [official Espriuno repository](https://github.com/espruino/Espruino).
 
